@@ -1,0 +1,11 @@
+<p>
+  users works!
+</p>
+<ul>
+  <li *ngFor="let user of (usersState | async).users; let i = index">
+    {{ user.first_name  }}
+  </li>
+</ul>
+
+
+
